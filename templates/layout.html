@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hypercar Database</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2 style="color: #00d4ff;">SYSTEM</h2>
+        
+        <a href="/">Dashboard</a>
+        <div class="description">Main control panel overview.</div>
+        
+        <a href="/cars">Gallery</a>
+        <div class="description">Browse the full hypercar database.</div>
+        
+        <a href="/logs">Security Logs</a>
+        <div class="description">Monitor all access attempts.</div>
+    </div>
+
+    <div style="margin-left: 270px; padding: 20px;">
+        {% block content %}{% endblock %}
+    </div>
+
+</body>
+</html>
