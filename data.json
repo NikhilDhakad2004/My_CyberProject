@@ -1,0 +1,54 @@
+{
+  "cars": [
+    {
+      "name": "Aston Martin Valkyrie",
+      "info": "An F1-inspired hypercar designed by Adrian Newey, featuring a naturally aspirated 6.5L V12 engine.",
+      "image": "aston.jpg"
+    },
+    {
+      "name": "McLaren P1",
+      "info": "A legendary hybrid hypercar that redefined performance with its advanced aerodynamic design.",
+      "image": "mclaren.jpg"
+    },
+    {
+      "name": "Pagani Huayra",
+      "info": "A masterpiece of automotive art, blending Italian craftsmanship with a powerful twin-turbo V12 engine.",
+      "image": "pagani.jpg"
+    },
+    {
+      "name": "Lamborghini Revuelto",
+      "info": "Lamborghini's first high-performance hybrid supercar, combining a powerful V12 with electric motors.",
+      "image": "lamborghini.jpg"
+    },
+    {
+      "name": "Ferrari SF90 Stradale",
+      "info": "Ferrari's most advanced plug-in hybrid supercar, offering unparalleled track performance.",
+      "image": "ferrari.jpg"
+    },
+    {
+      "name": "Rimac Nevera",
+      "info": "A record-breaking electric hypercar that showcases the future of speed with its insane acceleration.",
+      "image": "rimac.jpg"
+    },
+    {
+      "name": "Koenigsegg Jesko",
+      "info": "A speed king designed for raw power and aerodynamics, capable of extreme performance on any track.",
+      "image": "koenigsegg.jpg"
+    },
+    {
+      "name": "Bugatti La Voiture Noire",
+      "info": "One of the most exclusive and expensive cars ever made, representing the pinnacle of luxury.",
+      "image": "bugatti.jpg"
+    },
+    {
+      "name": "Mercedes-AMG ONE",
+      "info": "A road-legal hypercar that utilizes genuine Formula 1 powertrain technology.",
+      "image": "mercedes.jpg"
+    },
+    {
+      "name": "Porsche 911 GT3 RS",
+      "info": "The ultimate track-focused sports car, engineered for precision, grip, and pure driver connection.",
+      "image": "porsche_.jpg"
+    }
+  ]
+}
