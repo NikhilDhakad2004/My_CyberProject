@@ -1,10 +1,26 @@
-<div class="sidebar">
-    <h2>SYSTEM</h2>
-    <a href="/">Dashboard</a>
-    <a href="/cars">Gallery</a>
-    <a href="/logs">Security Logs</a>
-    
-    <div class="footer-text">
-        <p>Created By Nikhil Dhakad</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hypercar Database</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>SYSTEM</h2>
+        <a href="/">Dashboard</a>
+        <a href="/cars">Gallery</a>
+        <a href="/logs">Security Logs</a>
+        
+        <div class="footer-text">
+            <p>Created By Nikhil Dhakad</p>
+        </div>
     </div>
-</div>
+
+    <div class="content-area">
+        {% block content %}{% endblock %}
+    </div>
+
+</body>
+</html>
